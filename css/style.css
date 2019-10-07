@@ -1,0 +1,1537 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+html, body {height:100%;}
+
+
+/* HEADER PRINCIPAL */
+
+
+#intro {
+    background: url("../img/banner01.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.header_title {
+    text-align: center;
+    padding-top: 20%;
+    max-width: 100%;
+}
+
+
+.header_title h1 {
+    font-size: 43px;
+    font-family: Raleway, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    display: inline-block;
+    
+    margin: 0;
+    text-align: center;
+    color: #fff;  
+    padding-top: 5%; 
+}
+
+.button_container{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 250px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button a {
+    text-transform: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    color: #fff;
+}
+
+.button a:hover {
+    color: #ddd;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 43px;
+}
+
+.button .fas:hover {
+    
+}
+
+
+
+
+
+/* MENU NAVBAR */
+
+nav {
+    position: fixed;
+    
+    height: 50px;
+    width: 100%;    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-align: center;
+    z-index: 9999;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));  
+}
+
+
+nav ul {
+    list-style: none;
+    position: relative;
+    display: flex;
+     -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+nav ul ul {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 8px;
+    display: block;
+}
+
+
+nav ul li {
+    cursor: pointer;
+    -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+
+nav ul li:hover ul {
+    visibility: visible;
+}
+
+
+nav ul ul li {
+    float: none;
+}
+
+.fas {
+    margin: 10px;
+}
+
+nav ul li a {
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul ul li a {
+    line-height: 40px;
+    font-size: 12px;
+    color: #fff;
+}
+
+nav ul ul li a:hover {
+    color: #fff;
+}
+
+nav.black {
+    background: #010101;
+    border-bottom: 1px solid transparent;
+}
+
+
+nav ul li a:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a.active {
+    
+}
+
+
+
+
+
+ /* ---------------------------------------------------------- */
+
+/* INTRODUÇAO INDEX */
+
+#intro_index {
+    margin: 0;
+    height: 90vh;
+    width: 100%;
+    background-attachment: fixed;
+    padding: 100px 0px;
+}
+
+.conteudo_intro {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.conteudo_intro h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+}
+
+.conteudo_intro p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #333;
+}
+
+.padding{
+    margin-bottom: 100px;
+}
+
+/*  FINAL DA INTRODUÇAO INDEX */
+
+
+
+/* INICIO PARALLAX */ 
+
+.parallax {
+    background: url("../img/01.jpg")fixed 100%;
+    width: 100%;
+    height: 25vh;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.parallax_eolica {
+    width: 100%;
+    height: 25vh;
+    background: url('../img/energia/eolica3.jpg')fixed 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.parallax_hidreletrica {
+    width: 100%;
+    height: 25vh;
+    background: url('../img/energia/hidreletrica1.jpg')fixed 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.parallax_nuclear {
+    width: 100%;
+    height: 25vh;
+    background: url('../img/energia/nuclear.jpg')fixed 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.parallax_geotermica {
+    width: 100%;
+    height: 25vh;
+    background: url('../img/energia/parallax02.jpg')fixed 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.parallax_termeletrica {
+    width: 100%;
+    height: 25vh;
+    background: url('../img/energia/parallax-terme1.jpg')fixed 100%;
+    background-size: cover;
+    background-position: center center;
+}
+/* FIM DO PARALLAX */
+
+
+
+/* INICIO TIPOS DE ENERGIAS */
+
+#team-section {
+    width: 100%;
+    height: 80vh;
+}
+
+
+hr {
+	height: px;
+	width: 60px;
+	text-align: center;
+	background: #555;
+	border: 0;
+	margin: 10px auto 30px;
+}
+
+.section-title h2 {
+	margin-top: 60px;
+    margin-bottom: 30px;
+	font-size: 32px;
+	font-weight: 300;
+	text-align: center;
+    text-transform: uppercase;
+	color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-title p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+
+.containerGeral {
+	width:80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+    margin: 0 auto;
+}
+
+.box_container {
+	width: 20%;
+    height: 300px;
+}
+
+.box_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.box_texto {
+	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box_texto h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 20px;
+} 
+
+.box_texto p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+}
+
+
+.button_energias {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+    margin-top: 20px;
+}
+
+.button_energias a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0px 0px 0px 9px;
+    border: solid 1px #333;
+    color: #333;
+}
+
+.button_energias a:hover {
+    background: #555;
+    border: none;
+    color: #fff;
+    transition: all .5s;
+}
+/* -------------------------------------------------------- */
+
+
+/* ------  FOOTER  -------- */
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    background: #333;
+    display: flex;
+    -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.copy p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    align-items: center;
+}
+
+
+
+
+
+/*  ---------------------------------------------------*/
+
+
+/* -------------------- CONTEUDO  DA PAGINA EOLICA ------------------*/
+
+#intro_eolica {
+    background: url("../img//energia/eolica4.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*  INTRODUÇAO EOLICA  */
+ #introducao_eolica {
+    margin: 0;
+    height: 60vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#introducao_termeletrica {
+    margin: 0;
+    height: 40vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+#introducao_eolica h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    padding-top: 100px; 
+    color: #333;
+}
+
+#introducao_termeletrica h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    padding-top: 100px; 
+    color: #333;
+}
+
+#introducao_eolica h2::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #555;
+    display: block;
+    margin: 10px auto;
+}
+
+#introducao_termeletrica h2::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #555;
+    display: block;
+    margin: 10px auto;
+}
+
+.texto1_eolica {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+#introducao_eolica p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height:27px;
+    padding-bottom: 33px;
+    color: #333;
+}
+
+#introducao_termeletrica p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height:27px;
+    padding-bottom: 33px;
+    color: #333;
+}
+/* FIM INTROCUÇAO EOLICA */
+
+
+
+/* INICIO DE COMO FUNCIONA */ 
+#what_this_eolica  {
+    width: 100%;
+    height: 80vh;
+}
+
+#what_this_eolica h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-top: 30px;
+    color: #333;
+}
+
+#what_this_geotermica h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding-top: 30px;
+    color: #333;
+}
+
+
+
+.funcionamento {
+    display: table;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.funcionamento_hidreletrica {
+    width: 70%;
+    display: table;
+    margin: 0 auto;
+}
+
+
+
+.what_texto {
+    display: table-cell;
+    width: 45%;
+}
+
+.what_texto p {
+    text-align: justify;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 36px;
+}
+
+.what_img {
+    display: table-cell;
+    float: left;
+    margin-left: 40px;
+    width: 30%;
+    height: 350px;
+    
+}
+
+.what_img img {
+    height: 380px;
+    z-index: -2
+}
+/* FINAL COMO FUNCIONA */
+
+
+
+/*  INICIO VANTAGENS E DESVANTAGENS */
+#introducao3 {
+    height: 110vh;
+}
+
+#vantagens_desvantagens_terme {
+    height: 130vh;
+}
+
+
+#introducao3 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+}
+
+#vantagens_desvantagens_terme h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+
+#introducao3 p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 33px;
+    color: #333;
+}
+
+
+#vantagens_desvantagens_terme p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 33px;
+    color: #333;
+}
+.conteudo_listas {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.listas h3 {
+    font-weight:400;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+    color: #333;
+}
+
+
+.listas h3:after {
+    content: '';
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+}
+
+.conteudo_listas ul {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.conteudo_listas ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ccc;
+}
+
+.vantagens {
+    width: 45%;
+    height: 70vh;
+    float: left;
+    border: solid 2px #ccc;
+}
+
+.vantagens ul li:last-child {
+    border: none;
+}
+
+.desvantagens {
+    width: 45%;
+    height: 70vh;
+    float: right;
+    border: solid 2px #ccc;
+}
+
+.terme {
+    height: 85vh;
+}
+
+.desvantagens ul li:last-child {
+    border: none;
+}
+/* FINAL VANTEGENS E DESVANTAGENS */
+
+
+
+
+
+/*  INICIO DE CUSTOS  */
+#custos {
+    width: 100%;
+    height: 70vh;
+}
+
+#custo {
+    width: 100%;
+    height: 70vh;
+    margin-top: 50px;
+}
+
+.custos_terme{
+    height: 80vh;
+    padding-top: 40px;
+}
+
+.texto2 {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.h2-hidro {
+    margin-top: 60px;
+}
+
+.texto2 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-top: 7%; 
+    color: #333;
+}
+
+
+.texto2 h2:after {
+     content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #555;
+    display: block;
+    margin: 10px auto;
+}
+
+.texto2 p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    padding-bottom: 33px;
+    color: #333;
+}
+
+
+/* INICIO DO RODAPE*/
+
+
+    
+/* FIM DO RODAPE*/ 
+/* -------------------- FINAL DA PAGINA EOLICA ------------------*/
+
+
+
+
+
+
+/* -------------------- CONTEUDO DA PAGINA NUCLEAR ------------------*/
+
+#intro_nuclear {
+    background: url("../img//energia/parallax03.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+#introducao_nuclear {
+    width: 100%;
+    height: 40vh;
+}
+
+#introducao_nuclear h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 100px; 
+    color: #333;
+}
+
+.texto1_eolica {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#introducao_nuclear p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height:27px;
+    padding-bottom: 33px;
+    color: #333;
+}
+
+#what_this_nuclear {
+    width: 100%;
+    height: 70vh;
+}
+
+#what_this_nuclear h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-top: 30px;
+    color: #333;
+}
+
+#what_this_termo {
+    height: 40vh;
+    width: 100%;
+}
+
+#what_this_termo h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-top: 30px;
+    color: #333;
+}
+
+
+
+
+.what_texto_nuclear {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.what_texto_nuclear p {
+    text-align: justify;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/*  INICIO VANTAGENS E DESVANTAGENS */
+
+#introducao3 {
+    height: 110vh;
+}
+
+
+.conteudo_listas {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.listas h2 {
+    font-family: Raleway, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-top: 40px; 
+    color: #333;
+}
+
+
+.listas p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.listas {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.listas h3 {
+    font-weight:400;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: Raleway, Helvetica, sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+.listas h3:after {
+     content: '';
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+}
+
+.listas ul {
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.desvantagens_nuclear listas ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ccc;
+}
+
+.vantagens_nuclear {
+    max-width: 600px;
+    height: 670px;
+    float: left;
+    border: solid 1px #ccc;
+}
+
+.vantagens_nuclear ul li {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.vantagens_nuclear ul li:last-child {
+    border: none;
+}
+
+.desvantagens_nuclear {
+    max-width: 600px;
+    height: 670px;
+    float: right;
+    border: solid 1px #ccc;
+}
+
+.desvantagens_nuclear ul li:last-child {
+    border: none;
+}
+/* FINAL VANTEGENS E DESVANTAGENS */
+/* -------------------- FINAL DA PAGINA NUCLEAR ------------------*/
+
+
+
+
+
+
+
+/* -------------------- CONTEUDO DA PAGINA HIFRELETRICA ------------------*/
+
+#intro_hidreletrica {
+    background: url("../img//energia/hidreletrica3.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: table;
+}
+
+.texto1_hidro h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+    color: #333;
+}
+.texto1_hidro p{
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height:27px;
+    padding-bottom: 33px;
+    color: #333;
+}
+
+#como-funciona-hidro {
+    margin: 0;
+    height: 105vh;
+    width: 100%;
+}
+
+#como-funciona-hidro h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-top: 40px; 
+    color: #333;
+}
+
+#como-funciona-hidro h2::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #555;
+    display: block;
+    margin: 10px auto;
+}
+
+
+
+
+
+/* -------------------- FINAL DA PAGINA HIDRELETRICA ------------------*/
+
+
+
+
+/* -------------------- INICIO DA PAGINA TERMELETRICA ------------------*/
+
+#intro_termeletrica {
+    background: url("../img//energia/parallax-terme2.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* -------------------- FINAL DA PAGINA TERMELETRICA ------------------*/
+
+
+
+
+/* -------------------- INICIO DA PAGINA GEOTERMICA ------------------*/
+
+#intro_geotermica{
+    background: url("../img//energia/geotermica3.jpg")center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#introducao_geotermica h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 100px; 
+    color: #333;
+}
+
+
+#introducao_geotermica p{
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height:27px;
+    padding-bottom: 23px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+/* -------------------- FINAL DA PAGINA GEOTERMICA ------------------*/
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1440px) and (min-width:1024px) {
+    .header_title h1 {
+        font-size: 30px;
+    }
+    
+    .button_container {
+        margin-top: 9%;
+    }
+    
+    .button a {
+        font-size: 30px;
+    }
+    
+    .button a:hover {
+        font-size: 34px;
+    }
+
+    
+    nav {
+        height: 50px;
+    }
+    
+    nav ul li a {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    
+    nav ul ul li a {
+        font-size: 10px;
+        line-height: 30px;
+    }
+    
+    #intro_index {
+        height: 100vh;
+    }
+    .conteudo_intro h2 {
+        font-size: 22px;
+    }
+    
+    .conteudo_intro p {
+        font-size: 14px;
+    }
+    
+    #introducao h2 {
+        font-size: 20px;
+        margin-top: -40px;
+    }
+    
+    #introducao p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-bottom: 20px;
+    }
+    
+    .section-title h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .section-title p {
+        font-size: 14px;
+    }
+    
+
+    .padding {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .section-title.padding {
+        margin-top: -10px;
+    }
+    
+    .box_container {
+        margin: 10px;
+    }
+    
+    .box_texto h2 {
+        margin-top: 15px;
+    }
+    
+    .box_texto p {
+        font-size: 12px;
+    }
+
+    .button_energias a {
+        font-size: 12px;
+        
+    }
+    
+    .footer {
+        height: 45px;
+        bottom: 0;
+    }
+    
+    
+    #introducao_eolica h2 {
+        font-size: 22px;
+        margin-top: -30px;
+        margin-bottom: 40px;
+    }
+    #introducao_eolica h2::after {
+        height: 2px;
+    }
+    
+    #introducao_eolica p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-bottom: 20px;
+    }
+    
+    #introducao_nuclear h2 {
+        font-size: 24px;
+    }
+    
+    #introducao_nuclear p {
+        font-size: 14px;
+    }
+    
+    #what_this_eolica {
+        height: 100vh;
+    }
+    #what_this_nuclear {
+        height: 90vh;
+    }
+
+    #what_this_nuclear h2 {
+        font-size: 24px;
+    }
+
+
+    .what_texto_nuclear p {
+        font-size: 14px;
+    }
+    
+    #what_this h2 {
+        font-size: 20px;
+    }
+    
+    .what_texto p {
+        font-size: 14px;
+        margin-bottom: 20px;
+        float: left;
+    }
+    .what_texto_nuclear{
+        width: 65%;
+    }
+
+    .what_texto.geotermica  {
+        display: table-cell;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .what_img {
+        width: 25%;
+        height: 350px;
+    }
+
+    .what_img img {
+        height: 300px;
+    }
+    
+    #introducao3 {
+        height: 150vh;
+    }
+    
+    #introducao3 h2 {
+        font-size: 24px;
+    }
+    
+    #introducao3 p {
+        font-size: 14px;
+    }
+    
+    .listas h3 {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+    
+    .conteudo_listas {
+        display: block;
+    }
+    
+    .conteudo_listas ul li {
+        font-size: 12px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    .vantagens {
+        max-width: 400px;
+        height: 590px;
+    }
+    .vantagens.geo, .vantagens.hidreletrica {
+        height: 480px;
+    }
+      
+    .desvantagens {
+        max-width: 400px;
+        height: 590px;
+        float: right;
+    }
+    .desvantagens.geo, .desvantagens.hidreletrica {
+        height: 480px;
+    }
+        
+
+    .texto2 h2 {
+        font-size: 20px;
+    }
+    
+    .texto2 p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .texto1_hidro h2 {
+        font-size: 22px;
+    }
+    
+    .none {
+        display: none;
+    }
+    .terme ul li:nth-last-child(2) {
+        border: none;
+    }
+}
+
+
+@media screen and (max-width:1024px) and (min-width:800px) {
+    nav {
+        height: 50px;    
+    }
+    nav ul li a {
+        line-height: 0px;    
+        font-size: 14px;
+    }
+    
+    nav ul ul li a {
+    line-height: 50px;
+    font-size: 10px;
+    }
+    
+    
+    .header_title h1 {
+    font-size: 26px;
+    font-family: Raleway, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;    
+    }
+    
+    .button_container{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 130px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    }
+    
+    .button a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight:bold;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 7px 25px;
+    color: #fff;
+    }
+}
+.parallax{
+    margin-top: 3%;
+} 
+    
+    #introducao h2 {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-top: 0px; 
+    color: #000;
+    }
+
+    #introducao h2::after{
+    content: '';
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+    }
+
+    #introducao p {
+    text-align: justify;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    }
+
+#box-container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail  {
+    width: 20%;
+    height: 300px;
+} 
+
+.box_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.caption {
+	text-align: center;
+}
+    /*  RESPONSIVO EOLICA */
+    
+    .title_eolica h1 {
+    font-size: 28px;
+    font-family: Raleway, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;    
+    }
+}
+
+@media screen and (max-width:480px) {
+    .content{
+        padding-bottom: 50%;
+    }
+    .content h1 {
+        font-size: 230%;
+    }
+    .content a {
+        font-size: 60%;
+        padding: 6px 14px;
+    }
+}
+
+
+
